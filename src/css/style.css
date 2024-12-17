@@ -22,3 +22,7 @@
 /* 6. Responsive et thèmes */
 @import url('responsive.css');
 @import url('theme-dark.css');
+
+body{
+    background: black;
+}

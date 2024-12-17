@@ -1,0 +1,22 @@
+.menu {
+    visibility: hidden;
+    position: fixed;
+    inset: 0;
+    z-index: 1;
+    background-color: black;
+    color: var(--white);
+    flex-direction: column;
+    justify-content: space-between;
+    transform: translate(-100%);
+    transition: transform 0.3s ease, visibility 0s 0.3s;
+}
+
+.menu[aria-hidden="false"] {
+    transform: translateX(0);
+    visibility: visible;
+    transition: transform 0.3s ease, visibility 0s;
+}
+
+body.noscroll {
+    overflow: hidden;
+}

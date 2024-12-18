@@ -1,10 +1,26 @@
+.header__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:10px;
+    
+}
+
+.header__left{
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    padding-top: 25px;
+    padding-left: 20px;
+
+}
+
 .header__langue--fr {
     font-family: var(--font-family-title);
     font-size: var(--font-size-time);
+
     box-shadow: 0 0 10px rgba(255, 255, 255, 1.0);
-    padding: 8px;
-    padding-top: 11px;
-    padding-bottom: 11px;
+    padding: 9px 7px;
     background: var(--pink);
 }
 
@@ -12,7 +28,23 @@
     font-family: var(--font-family-title);
     font-size: var(--font-size-time);
     border: 1px solid var(--white);
-    padding: 6px;
-    padding-top: 11px;
-    padding-bottom: 11px;
+    padding: 9px 7px;      
+}
+
+.header__logo--icon{
+    width: 115px;
+    padding-right: 50px;
+    padding-top: 25px;
+}
+
+.menu__icon{
+    background: transparent;
+    border: none;
+}
+
+.menu__btn{
+    width: 30px;
+    align-items: center;
+    padding-right: 17px;
+    padding-top: 25px;
 }

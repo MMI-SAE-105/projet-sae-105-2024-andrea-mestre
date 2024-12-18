@@ -1,6 +1,6 @@
 main{
-    padding-left: 23px;
-    padding-right: 23px;
+    padding-left: 27px;
+    padding-right: 27px;
 }
 
 h1 {
@@ -10,18 +10,23 @@ h1 {
     font-weight: 400;
     letter-spacing: 5.6px;
     text-align: center;
-    line-height: 160%;
-    padding-top: 80px;
+    line-height: 170%;
+    margin: 0;
     text-shadow:
-            0 0 15px var(--buttoncolor),
-            0 0 10px var(--buttoncolor),
-            0 0 20px var(--buttoncolor),
-            0 0 40px var(--buttoncolor);
-        margin-bottom: 40px;
+    0 0 15px var(--buttoncolor),
+    0 0 10px var(--buttoncolor),
+    0 0 20px var(--buttoncolor),
+    0 0 40px var(--buttoncolor);    
 }
 
 h2{
+    font-family: var(--font-family-title);
+    font-size: var(--font-size-subtitle);
     color: var(--white);
+    font-weight: var(--font-weight-light);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin: 0;
 }
 
 p{
@@ -35,4 +40,18 @@ a{
 
 ul{
     list-style-type: none;
+}
+
+.chapo {
+    font-family: var(--font-family-chapo);
+    font-size: var(--font-size-chapo);
+    color: var(--white);
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.home__chapo3{
+    margin: 0;
+    padding-bottom: 200px;
 }

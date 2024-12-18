@@ -1,27 +1,23 @@
-/* 1. Réinitialisation */
-@import url('reset.css');
-@import url('normalize.css');
+/* 1. bibliothèque */
+@import url("/src/css/vendors/normalize.css");
 
-/* 2. Variables globales et mixins */
-@import url('variables.css');
-@import url('mixins.css');
+/* 2. Utils */
+@import url("/src/css/utils/variables.css");
 
-/* 3. Frameworks ou librairies externes */
-@import url('https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css');
-@import url('tailwind.css');
+/* 3. Base */
+@import url("/src/css/base/main.css");
+@import url("/src/css/base/media.css");
 
-/* 4. Styles globaux */
-@import url('global.css');
+/* 6. Layoute */
+@import url("/src/css/layout/footer.css");
+@import url("/src/css/layout/header.css");
+@import url("/src/css/layout/hero.css");
 
-/* 5. Composants */
+
+
+/* 6. Components */
 @import url('/src/css/components/menu.css');
-@import url('footer.css');
-@import url('buttons.css');
-@import url('forms.css');
 
-/* 6. Responsive et thèmes */
-@import url('responsive.css');
-@import url('theme-dark.css');
 
 body{
     background-color: black;

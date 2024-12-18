@@ -1,0 +1,39 @@
+:root {
+    /*Colors*/
+    --black: #000000;
+    --white: #F5F5F5;
+    --violet: #541C94;
+    --darkblue: #44449C;
+    --blue: #2B53D5;
+    --pink: #B401B3;
+    --buttoncolor: #50CEE1;
+    --lightblue: #5DDBAC;
+    
+
+
+    /*Typography */
+    --font-family-title: 'Press Start 2P', sans-serif;
+    --font-family-chapo: 'Courier Prime', sans-serif;
+    --font-family-text: 'Montserrat', sans-serif;
+
+    /*Tailles */
+    --font-size-legende: 12px;
+    --font-size-button: 10px;
+    --font-size-body2: 16px;
+    --font-size-body1: 22px;
+    --font-size-body: 24px;
+    --font-size-chapo: 18px;
+    --font-size-choice: 18px;
+    --font-size-subtitle: 24px;
+    --font-size-title: 28px;
+    --font-size-time: 13px;
+    --font-size-intro: 16px;
+    --font-size-header: 11px;
+
+
+    /*Espacements */
+    --space-img: 50px;
+    --space-chapo: 200px;
+    --space-button: 40px;
+    --space-title: 25px;
+}

@@ -12,6 +12,10 @@
     
 }
 
+body.noscroll {
+    overflow: hidden;
+}
+
 .menu__list {
     display: flex;
     flex-direction: column;
@@ -50,7 +54,7 @@
 }
 
 .media__img{
-    width: 40px; ;
+    width: 40px;
 }
 
 .menu[aria-hidden="false"] {
@@ -59,7 +63,5 @@
     transition: transform 0.3s ease, visibility 0s;
 }
 
-body.noscroll {
-    overflow: hidden;
-}
+
 

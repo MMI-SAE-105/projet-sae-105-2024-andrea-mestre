@@ -21,3 +21,12 @@
 /* 6. Components */
 @import url('/src/css/components/menu.css');
 
+
+body{
+    background-color: black;
+    ;
+}
+
+p{
+    color: white;
+}

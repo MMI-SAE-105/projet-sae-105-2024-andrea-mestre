@@ -48,8 +48,8 @@
 .menu__btn{
     width: 30px;
     align-items: center;
-    
     padding-top: 25px;
+    cursor: pointer;
 }
 
 .header__title{

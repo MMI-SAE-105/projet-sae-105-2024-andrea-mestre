@@ -71,6 +71,7 @@ body.noscroll {
     display: flex; 
     padding-left: 325px;
     padding-top: 50px;
+    cursor: pointer;
 }
 
 .menu__close--icon{

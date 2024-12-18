@@ -7,6 +7,17 @@ h1 {
     font-family: var(--font-family-title);
     font-size: var(--font-size-title);
     color: var(--white);
+    font-weight: 400;
+    letter-spacing: 5.6px;
+    text-align: center;
+    line-height: 160%;
+    padding-top: 80px;
+    text-shadow:
+            0 0 15px var(--buttoncolor),
+            0 0 10px var(--buttoncolor),
+            0 0 20px var(--buttoncolor),
+            0 0 40px var(--buttoncolor);
+        margin-bottom: 40px;
 }
 
 h2{

@@ -58,7 +58,7 @@ body.noscroll {
     flex-direction: row;
     align-items: center;
     gap: 28px;
-    padding-left: 170px;
+    padding-left: 180px;
 }
 
 .media__img {
@@ -69,7 +69,7 @@ body.noscroll {
     border: none;
     background: transparent;  
     display: flex; 
-    padding-left: 335px;
+    padding-left: 325px;
     padding-top: 50px;
 }
 

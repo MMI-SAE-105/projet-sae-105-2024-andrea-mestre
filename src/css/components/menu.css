@@ -1,3 +1,18 @@
+body.noscroll {
+    overflow: hidden;
+}
+
+.menu[aria-hidden="false"] {
+    transform: translateX(0);
+    visibility: visible;
+    transition: transform 0.3s ease, visibility 0s;
+}
+
+.menu__item {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 .menu {
     visibility: hidden;
     position: fixed;
@@ -7,6 +22,12 @@
     color: var(--white);
     flex-direction: column;
     justify-content: space-between;
+    background-image: url("/assets/img/fond_etoiles.webp");
+    background-size: 393px;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
     transform: translate(-100%);
     transition: transform 0.3s ease, visibility 0s 0.3s;
     
@@ -17,13 +38,31 @@
     flex-direction: column;
     justify-content: space-between;
     gap: var(--space-img);
-   
+    padding-top: 90px;
+    padding-left: 25px; 
 }
   
 .menu__link{
     font-family: var(--font-family-chapo);
     font-size: var(--font-size-body);
+    font-weight: 600;
     text-transform: uppercase;
+}
+
+.menu__secondaire {
+    padding-top: 20px;
+}
+
+.menu__socialmedia--list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 28px;
+    padding-left: 170px;
+}
+
+.media__img {
+    width: 43px;
 }
 
 .menu__close--btn{
@@ -31,33 +70,45 @@
     background: transparent;  
     display: flex; 
     padding-left: 335px;
-    padding-top: 50px; 
+    padding-top: 50px;
 }
 
 .menu__close--icon{
-    width: 37px;
+    width: 33px;
 }
 
-.menu__secondaire{
-    padding-top: 38px ;
-}
-
-.menu__socialmedia--list{
+.menu__langue--container{
     display: flex;
     flex-direction: row;
-    align-items: center;
-    gap: 28px; 
+    gap: 7px;
+    position: absolute;
+    top: 70px;
+    left: 25px;
+
 }
 
-.media__img{
-    width: 40px; ;
+.menu__langue--fr{
+    font-family: var(--font-family-title);
+    font-size: var(--font-size-time);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 1.0);
+    padding: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: var(--pink);
 }
 
-.menu[aria-hidden="false"] {
-    transform: translateX(0);
-    visibility: visible;
-    transition: transform 0.3s ease, visibility 0s;
+.menu__langue--en {
+    font-family: var(--font-family-title);
+    font-size: var(--font-size-time);
+    border: 1px solid var(--white);
+    padding: 6px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
+
+
+
+
 
 
 

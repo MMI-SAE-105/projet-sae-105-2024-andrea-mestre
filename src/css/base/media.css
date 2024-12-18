@@ -1,0 +1,16 @@
+.section {
+    background-image: url("/assets/img/fond_etoiles.webp");
+    background-size: 393px;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+footer {
+    background-image: url("/assets/img/fond_etoiles.webp");
+    background-size: 100%;
+    background-position: center;
+    background-attachment: fixed;
+}

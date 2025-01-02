@@ -1,7 +1,36 @@
-.article__card--img {
+.article__card--container{
+    border: 2px solid ;
+    border-radius: 15px;
+    box-shadow:
+            0 0 5px var(--pink),
+            0 0 10px var(--pink),
+            0 0 20px var(--pink),
+            0 0 30px var(--pink),
+            0 0 6px var(--pink);  
+}
+.article__card--title{
+    text-align: center;
+    line-height: 150%;
+    padding-top: 25px;
+    padding-bottom: 10px;
+
+}
+
+.article__card--imgcontainer{
     display: flex;
-    width: 160px;
-    justify-content: center;
-    align-items: center;
-    
+        justify-content: center;
+        align-items: center;
+}
+
+.article__card--img { 
+    width: 160px;   
+}
+
+.article__card--text{
+    font-family: var(--font-family-text);
+    font-size: var(--font-size-body2);
+    text-align: center;
+    line-height: 130%;
+    padding-left: 15px;
+    padding-right: 15px;
 }

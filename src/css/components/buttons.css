@@ -1,0 +1,59 @@
+.btn{
+    font-family: var(--font-family-title);
+    font-size: var(--font-size-button);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.article__card--pink{
+    text-shadow:
+        0 0 10px var(--pink),
+        0 0 2px var(--pink),
+        0 0 5px var(--pink),
+        0 0 40px var(--pink);
+}
+
+.article__card--darkblue{
+    text-shadow:
+        0 0 10px var(--darkblue),
+        0 0 2px var(--darkblue),
+        0 0 5px var(--darkblue),
+        0 0 40px var(--darkblue);
+}
+
+.article__card--purple {
+    text-shadow:
+        0 0 10px var(--purple),
+        0 0 2px var(--purple),
+        0 0 5px var(--purple),
+        0 0 40px var(--purple);
+}
+
+.article__card--green {
+    text-shadow:
+        0 0 10px var(--lightblue),
+        0 0 2px var(--lightblue),
+        0 0 5px var(--lightblue),
+        0 0 40px var(--lightblue);
+}
+
+.article__card--blue {
+    text-shadow:
+        0 0 10px var(--buttoncolor),
+        0 0 2px var(--buttoncolor),
+        0 0 5px var(--buttoncolor),
+        0 0 40px var(--buttoncolor);
+}
+
+
+
+.btnbleu{
+    font-family: var(--font-family-title);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow:
+            0 0 15px var(--buttoncolor),
+            0 0 10px var(--buttoncolor),
+            0 0 20px var(--buttoncolor),
+            0 0 40px var(--buttoncolor);
+}

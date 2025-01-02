@@ -56,10 +56,8 @@
 .hero__img--container {
     position: relative;
     width: 100%;
-    /* Conteneur prend toute la largeur */
     height: 300px;
     overflow: hidden;
-    /* Cache les parties débordantes */
     margin-top: -300px;
    
 }

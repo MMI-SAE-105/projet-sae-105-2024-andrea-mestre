@@ -3,6 +3,14 @@ main{
     padding-right: 27px;
 }
 
+body {
+    background-color: black;
+}
+
+p {
+    color: white;
+}
+
 h1 {
     font-family: var(--font-family-title);
     font-size: var(--font-size-title);
@@ -57,6 +65,6 @@ ul{
 }
 
 .article__title--home{
-    
+
     text-align: center;
 }

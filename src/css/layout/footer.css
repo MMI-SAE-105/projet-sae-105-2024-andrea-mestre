@@ -80,6 +80,14 @@
     text-decoration: underline;
 }
 
+.header__neon{
+    position: relative;
+    overflow: hidden;
+    width: 600px;
+    right: 100px;
+   
+}
+
 
 
 

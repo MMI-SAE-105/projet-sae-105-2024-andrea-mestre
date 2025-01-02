@@ -55,3 +55,8 @@ ul{
     margin: 0;
     padding-bottom: 200px;
 }
+
+.article__title--home{
+    
+    text-align: center;
+}

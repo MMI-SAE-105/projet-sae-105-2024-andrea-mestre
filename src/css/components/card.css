@@ -1,0 +1,7 @@
+.article__card--img {
+    display: flex;
+    width: 160px;
+    justify-content: center;
+    align-items: center;
+    
+}

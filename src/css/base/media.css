@@ -49,3 +49,9 @@ footer {
 .article__card--img {
     width: 160px;
 }
+
+.hero__img--console{
+    width: 178px;
+    height: 178px; 
+    margin-top: 96px;
+}

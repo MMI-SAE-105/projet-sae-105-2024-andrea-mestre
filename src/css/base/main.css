@@ -20,11 +20,7 @@ h1 {
     text-align: center;
     line-height: 170%;
     margin: 0;
-    text-shadow:
-    0 0 15px var(--buttoncolor),
-    0 0 10px var(--buttoncolor),
-    0 0 20px var(--buttoncolor),
-    0 0 40px var(--buttoncolor);    
+       
 }
 
 h2{
@@ -39,6 +35,16 @@ h2{
 
 p{
     color: var(--white);
+    font-family: var(--font-family-text);
+    font-size: var(--font-size-body2);
+    line-height: 130%;
+}
+
+.chapo__publication{
+   font-family: var(--font-family-chapo);
+   color: var(--gray);
+   font-size: var(--font-size-time);
+   margin: 0;
 }
 
 a{
@@ -74,4 +80,12 @@ ul{
 
 .article__title{
     margin-bottom: var(--space-title);
+}
+.console__chapo{
+    margin-top: 0;
+    padding-top: 5px;
+}
+
+.article__title{
+    margin-top: var(--space-chapo);
 }

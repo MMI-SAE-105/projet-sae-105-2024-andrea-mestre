@@ -29,7 +29,15 @@
         0 0 10px var(--purple),
         0 0 20px var(--purple),
         0 0 40px var(--purple);
+}
 
+.titregreen{
+
+    text-shadow:
+        0 0 15px var(--lightblue),
+        0 0 10px var(--lightblue),
+        0 0 20px var(--lightblue),
+        0 0 40px var(--lightblue);
 }
 
 .hero__subtitle {
@@ -44,7 +52,7 @@
             0 0 40px var(--darkblue);
 }
 
-.hero__subtitle--purple {
+.subtilepurple{
     font-size: var(--font-size-body);
     text-align: center;
     margin-top: 60px;
@@ -53,6 +61,16 @@
         0 0 10px var(--purple),
         0 0 20px var(--purple),
         0 0 40px var(--purple);
+}
+
+.subtilegreen {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    text-shadow:
+        0 0 15px var(--lightblue),
+        0 0 10px var(--lightblue),
+        0 0 20px var(--lightblue),
+        0 0 40px var(--lightblue);
 }
 
 

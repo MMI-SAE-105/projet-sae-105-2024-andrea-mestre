@@ -1,7 +1,7 @@
 :root {
     /*Colors*/
     --black: #000000;
-    --gray:#D9D9D9;
+    --gray: #BFBFBF;
     --white: #F5F5F5;
     --purple: #541C94;
     --darkblue: #44449C;
@@ -21,7 +21,7 @@
 
     --font-size-button: 10px;
     --font-size-legende: 12px;
-    --font-size-body2: 16px;
+    --font-size-body2: 15.5px;
     --font-size-body1: 22px;
     --font-size-body: 24px;
     --font-size-chapo: 21px;

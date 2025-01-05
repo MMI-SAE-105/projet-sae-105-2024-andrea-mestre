@@ -1,0 +1,49 @@
+.projets__item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    width: 100%;
+    height: 100%;
+    font-family: var(--font-family-chapo);
+    font-size: var(--font-size-chapo);
+    text-align: center;    
+}
+
+.title__glossaire {
+    font-size: var(--font-size-title);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.projets__titre{
+    font-family: var(--font-family-title);
+    font-size: var(--font-size-small-title);
+    margin-top: 100px;
+    margin-bottom: 20px;
+    text-shadow:
+            0 0 15px var(--purple),
+            0 0 10px var(--purple),
+            0 0 10px var(--purple),
+            0 0 10px var(--purple);
+}
+
+.projets__titre2{
+        font-family: var(--font-family-title);
+        font-size: var(--font-size-small-title);
+        margin-top: 100px;
+        margin-bottom: 20px;
+        text-shadow:
+            0 0 15px var(--darkblue),
+            0 0 10px var(--darkblue),
+            0 0 10px var(--darkblue),
+            0 0 10px var(--darkblue);
+}
+
+.projets__auteur{
+    margin-bottom: 60px;
+}
+

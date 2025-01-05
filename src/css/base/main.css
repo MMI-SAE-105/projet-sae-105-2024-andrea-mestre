@@ -92,13 +92,16 @@ ul{
 
 .projets__chapo{
     padding-top: 0px;
+    padding-bottom: 0px;
     margin-top: 0px;
+    margin-bottom: 100px;
 }
 
 .home__chapo3{
     margin: 0;
     padding-bottom: 200px;
 }
+
 
 .article__title--home{
     margin-bottom: var(--space-title);

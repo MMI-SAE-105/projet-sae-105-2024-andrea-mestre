@@ -57,6 +57,24 @@
         0 0 40px var(--pink);
 }
 
+.titredarckblue{
+    margin-top: 142px;
+    text-shadow:
+            0 0 15px var(--darkblue),
+            0 0 10px var(--darkblue),
+            0 0 20px var(--darkblue),
+            0 0 40px var(--darkblue);
+}
+
+.glossairedarkblue{
+    margin-top: 70px;
+    text-shadow:
+            0 0 15px var(--darkblue),
+            0 0 10px var(--darkblue),
+            0 0 20px var(--darkblue),
+            0 0 40px var(--darkblue);
+}
+
 .hero__subtitle {
     font-size: var(--font-size-body);
     text-align: center;

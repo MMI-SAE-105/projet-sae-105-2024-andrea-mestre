@@ -89,3 +89,22 @@ ul{
 .article__title{
     margin-top: var(--space-chapo);
 }
+
+.article__legende{
+    font-family: var(--font-family-text);
+    font-size: var(--font-size-legende);
+    margin-top: 7px;
+    margin-bottom: 0px;
+}
+
+.legende1{
+    margin-bottom: 50px;
+}
+
+.legende2{
+    margin-bottom: 20px;
+}
+
+.legende3{
+    margin-bottom: 50px;
+}

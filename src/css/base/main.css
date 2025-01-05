@@ -65,6 +65,21 @@ ul{
     padding-bottom: 20px;
 }
 
+.console__chapo {
+    margin-top: 0;
+    padding-top: 5px;
+}
+
+.film__chapo{
+    padding-top: 0px;
+    margin-top: 5px;
+}
+
+.livre__chapo{
+    padding-top: 0px;
+    margin-top: 5px;
+}
+
 .home__chapo3{
     margin: 0;
     padding-bottom: 200px;
@@ -80,10 +95,6 @@ ul{
 
 .article__title{
     margin-bottom: var(--space-title);
-}
-.console__chapo{
-    margin-top: 0;
-    padding-top: 5px;
 }
 
 .article__title{

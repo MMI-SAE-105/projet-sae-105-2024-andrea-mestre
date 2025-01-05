@@ -92,16 +92,16 @@
     </header> 
 
     <div class="hero__texte">
-            <h1 class="hero__titre">Manuel de Stratégie Militaire du Passé</h1>
-            <h1 class="hero__subtitle">Ender’s Game</h1>
+            <h1 class="hero__titre titrepurple">Manuel de Stratégie Militaire du Passé</h1>
+            <h1 class="hero__subtitle--purple">Ender’s Game</h1>
              <img class="hero__icon--livre" src="/assets/icon/icon-livre.webp" alt="Icone d'un livre ouvert pixelisé">
         </div>
     </section>
 
     <main>
      <div class="chapo__container">
-            <p>Par Andréa Mestre</p>
-            <time datetime="2150-10-22T18:00">Publié 22/10/2150 à 18h</time>
+             <p class="chapo__publication">Par Andréa Mestre</p>
+            <time class="chapo__publication" datetime="2150-10-22T18:00">Publié 22/10/2150 à 18h</time>
             <p class="chapo livre__chapo">
                 À la suite de recherches approfondies, les chercheurs ont mis au jour un manuscrit fascinant, 
                 Ender's Game, retrouvé à proximité de ce que nous croyons être une "Console de la Psyché Interactive" (CPI).
@@ -127,9 +127,14 @@
                était l'exemple ultime de l'enfant conditionné à la guerre via la CPI. 
             </p>
             <div class="article__img--container">
-                <img class="article__img" src="/assets/img/affiche-enders_game.webp" alt="Couverture du livre Ender's Game">
+                <img class="article__img2" src="/assets/img/affiche-enders_game.webp" alt="Couverture du livre Ender's Game">
                 <p class="article__legende legende">Ender’s Game, Orson Scott</p>
-                <a class="btnbleu article__video--btn " href="https://www.futura-sciences.com/livres/science-fiction-cycle-ender-tome-1-strategie-ender-96/" aria-label="Visite un site pour en savoir plus sur Ender's game"> En savoir plus</a>
+                
+                <a class="btnbleu article__video--btn " href="https://www.futura-sciences.com/livres/science-fiction-cycle-ender-tome-1-strategie-ender-96/" aria-label="Visite un site pour en savoir plus sur Ender's game">
+                    <div class="btnbleu__container">
+                    <p class="btnbleu__text filmbtn">En savoir plus</p>
+                </div>
+                </a>
             </div>
             <p class="article__text">
                Les jeunes esprits étaient forgés pour devenir des leaders capables de prendre des décisions difficiles,
@@ -150,7 +155,9 @@
                dont l'objectif ultime était de produire des génies stratégiques. 
             </p>
         </section>
-         <a class="bouton__suivant" href="/fr/articlerealisateur.html" aria-label="Aller à la page suivante">Niveau Suivant</a>
+          <div class="bouton__suivant">
+            <a class="bouton__suivant" href="/fr/articlerealisateur.html" aria-label="Aller à la page suivante">Niveau Suivant</a>
+        </div>
     </main>
 
     <footer>

@@ -243,6 +243,7 @@
         cursor: pointer;
         transition: all 0.2s ease;
         animation: clignoter 0.8s infinite alternate;
+        
 }
 
 .hero__btn--container{
@@ -255,4 +256,6 @@
 
 .filmbtn{
     margin-bottom: var(--space-button);
+    padding-left: 30px;
+    padding-right: 30px;
 }

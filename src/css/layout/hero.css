@@ -22,6 +22,16 @@
         0 0 40px var(--darkblue);
 }
 
+.titrepurple{
+    width: 367px;
+    text-shadow:
+        0 0 15px var(--purple),
+        0 0 10px var(--purple),
+        0 0 20px var(--purple),
+        0 0 40px var(--purple);
+
+}
+
 .hero__subtitle {
     font-size: var(--font-size-body);
     text-align: center;
@@ -32,6 +42,17 @@
             0 0 10px var(--darkblue),
             0 0 20px var(--darkblue),
             0 0 40px var(--darkblue);
+}
+
+.hero__subtitle--purple {
+    font-size: var(--font-size-body);
+    text-align: center;
+    margin-top: 60px;
+    text-shadow:
+        0 0 15px var(--purple),
+        0 0 10px var(--purple),
+        0 0 20px var(--purple),
+        0 0 40px var(--purple);
 }
 
 

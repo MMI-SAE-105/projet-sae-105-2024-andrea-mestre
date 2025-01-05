@@ -32,7 +32,6 @@
 }
 
 .titregreen{
-
     text-shadow:
         0 0 15px var(--lightblue),
         0 0 10px var(--lightblue),
@@ -75,6 +74,14 @@
             0 0 40px var(--darkblue);
 }
 
+.titregreen2{
+    margin-top: 142px;
+    text-shadow:
+            0 0 15px var(--lightblue),
+            0 0 10px var(--lightblue),
+            0 0 20px var(--lightblue),
+            0 0 40px var(--lightblue);
+}
 .hero__subtitle {
     font-size: var(--font-size-body);
     text-align: center;

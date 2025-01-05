@@ -85,6 +85,16 @@ ul{
     margin-top: 5px;
 }
 
+.son__chapo{
+    padding-top: 0px;
+    margin-top: 5px;
+}
+
+.projets__chapo{
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
 .home__chapo3{
     margin: 0;
     padding-bottom: 200px;

@@ -92,15 +92,15 @@
     </header> 
 
     <div class="hero__texte">
-            <h1 class="hero__titre">Une Exploration de la Psyché Humaine</h1>
-            <h1 class="hero__subtitle">Tron: Legacy</h1>
+            <h1 class="hero__titre titreblue">Une Exploration de la Psyché Humaine</h1>
+            <h1 class="hero__subtitle subtileblue">Tron: Legacy</h1>
         </div>
     </section>
 
     <main>
      <div class="chapo__container">
-            <p>Par Andréa Mestre</p>
-            <time datetime="2150-10-22T18:00">Publié 22/10/2150 à 18h</time>
+           <p class="chapo__publication">Par Andréa Mestre</p>
+            <time class="chapo__publication" datetime="2150-10-22T18:00">Publié 22/10/2150 à 18h</time>
             <p class="chapo son__chapo">
                Plongez dans l'univers sonore de Tron: Legacy, 
                où la musique de Daft Punk sert de toile de fond à une réflexion profonde sur la technologie et la psyché humaine. 
@@ -112,8 +112,12 @@
         </div>
 
         <div class="son">
-            <img src="/assets/img/affiche-tron.webp" alt="Image couverture de l'album de la bande originale de Tron: Legacy">
-            <a class="btnbleu son__btn" href="https://www.youtube.com/watch?v=m4cgLL8JaVI">Tester l’expérience sonore</a>
+            <img class="son__img" src="/assets/img/affiche-tron.webp" alt="Image couverture de l'album de la bande originale de Tron: Legacy">
+            <a class="btnbleu son__btn" href="https://www.youtube.com/watch?v=m4cgLL8JaVI">
+                <div class="btnbleu__container">
+                    <p class="btnbleu__text filmbtn">En savoir plus</p>
+                </div>
+            </a>
         </div>
 
         <section class="article article__morceaux">
@@ -141,7 +145,10 @@
               tout en résonnant avec notre propre exploration des artefacts du passé, tels que la CPI.
             </p>
         </section>
-         <a class="bouton__suivant" href="/fr/autresprojets.html" aria-label="Aller à la page suivante">Niveau Suivant</a>
+         
+         <div class="bouton__suivant">
+            <a class="bouton__suivant" href="/fr/autresprojets.html" aria-label="Aller à la page suivante">Niveau Suivant</a>
+        </div>
     </main>
 
     

@@ -95,10 +95,20 @@ footer {
     padding-top: 0px;
 }
 
-
-
 .video__container{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.son__img {
+    width: 250px;
+}
+
+.son {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding-top: 50px;

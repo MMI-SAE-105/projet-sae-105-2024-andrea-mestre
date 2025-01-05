@@ -211,7 +211,6 @@
         cursor: pointer;
 }
 
-
 .bouton__suivant{
     font-family: var(--font-family-title);
     font-size: var(--font-size-subtitle);
@@ -229,4 +228,17 @@
     text-align: center;
     transition: all 0.2s ease;
     animation: clignoter 0.8s infinite alternate;
+}
+
+.hero__btn{
+    font-family: var(--font-family-title);
+        font-size: var(--font-size-subtitle);
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        text-shadow:
+                0 0 15px var(--darkblue),
+                0 0 10px var(--darkblue),
+                0 0 20px var(--darkblue),
+                0 0 40px var(--darkblue);
+    
 }

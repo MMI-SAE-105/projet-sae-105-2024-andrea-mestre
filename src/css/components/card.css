@@ -1,30 +1,97 @@
 .article__card--container{
-    border: 2px solid ;
+    padding: 20px;
+    border: 2px solid transparent;
     border-radius: 15px;
-    box-shadow:
-            0 0 5px var(--pink),
-            0 0 10px var(--pink),
-            0 0 20px var(--pink),
-            0 0 30px var(--pink),
-            0 0 6px var(--pink);  
-}
-.article__card--title{
+    background: linear-gradient(black, black) padding-box,
+            linear-gradient(135deg, #B401B3,#B401B3) border-box;
+    box-shadow: 
+            0 0 10px #B401B3,
+            0 0 10px #B401B3,
+            0 0 10px #B401B3,
+            0 0 10px #B401B3,
+            0 0 10px #B401B3,
+            0 0 10px #B401B3;
     text-align: center;
+    margin-bottom: var(--space-button);
+}
+
+.article__carddarkblue--container {
+    margin-top: 200px;
+    padding: 20px;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    background: linear-gradient(black, black) padding-box,
+        linear-gradient(135deg, #44449C, #44449C) border-box;
+    box-shadow:
+        0 0 10px #44449C,
+        0 0 10px #44449C,
+        0 0 10px #44449C,
+        0 0 10px #44449C,
+        0 0 10px #44449C,
+        0 0 10px #44449C;
+    text-align: center;
+    margin-bottom: var(--space-button);
+}
+
+.article__cardpurple--container {
+    margin-top: 200px;
+    padding: 20px;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    background: linear-gradient(black, black) padding-box,
+        linear-gradient(135deg, #541C94, #541C94) border-box;
+    box-shadow:
+        0 0 10px#541C94,
+        0 0 10px#541C94,
+        0 0 10px #541C94,
+        0 0 10px #541C94,
+        0 0 10px #541C94,
+        0 0 10px #541C94;
+    text-align: center;
+    margin-bottom: var(--space-button);
+}
+
+.article__cardgreen--container {
+    margin-top: 200px;
+    padding: 20px;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    background: linear-gradient(black, black) padding-box,
+        linear-gradient(135deg, #5DDBAC, #5DDBAC) border-box;
+    box-shadow:
+        0 0 10px#5DDBAC,
+        0 0 10px#5DDBAC,
+        0 0 10px #5DDBAC,
+        0 0 10px #5DDBAC,
+        0 0 10px #5DDBAC,
+        0 0 10px #5DDBAC;
+    text-align: center;
+    margin-bottom: var(--space-button);
+}
+
+.article__cardblue--container {
+    margin-top: 200px;
+    padding: 20px;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    background: linear-gradient(black, black) padding-box,
+        linear-gradient(135deg, #5DDBAC, #50CEE1) border-box;
+    box-shadow:
+        0 0 10px#50CEE1,
+        0 0 10px#50CEE1,
+        0 0 10px #50CEE1,
+        0 0 10px #50CEE1,
+        0 0 10px #50CEE1,
+        0 0 10px #50CEE1;
+    text-align: center;
+    margin-bottom: var(--space-button);
+}
+
+
+.article__card--title{
     line-height: 150%;
-    padding-top: 25px;
-    padding-bottom: 10px;
-
 }
 
-.article__card--imgcontainer{
-    display: flex;
-        justify-content: center;
-        align-items: center;
-}
-
-.article__card--img { 
-    width: 160px;   
-}
 
 .article__card--text{
     font-family: var(--font-family-text);

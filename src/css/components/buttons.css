@@ -3,6 +3,143 @@
     font-size: var(--font-size-button);
     text-transform: uppercase;
     letter-spacing: 1px;
+    
+}
+
+.hero__sous-titre {
+    cursor: pointer;
+    transition: all 0.2s ease;
+    animation: clignoter 0.8s infinite alternate;
+    padding-top: 70px;
+}
+
+@keyframes clignoter {
+    0% {
+        text-shadow:
+            0 0 10px var(--buttoncolor),
+            0 0 20px var(--buttoncolor),
+            0 0 30px var(--buttoncolor),
+            0 0 20px var(--buttoncolor);
+    }
+
+    50% {
+        text-shadow:
+            0 0 5px var(--buttoncolor),
+            0 0 10px var(--buttoncolor),
+            0 0 15px var(--buttoncolor),
+            0 0 15px var(--buttoncolor);
+        opacity: 5.0;
+    }
+
+    100% {
+        text-shadow:
+            0 0 10px var(--pink),
+            0 0 20px var(--pink),
+            0 0 30px var(--pink),
+            0 0 20px var(--pink);
+    }
+}
+
+.hero__sous-titre:hover {
+    animation: none;
+    text-shadow:
+        0 0 10px #00f6ff,
+        0 0 20px #00f6ff,
+        0 0 40px #00f6ff,
+        0 0 80px #00c2e5;
+    color: #00f6ff;
+    border-color: #00f6ff;
+    transform: scale(1.05);
+}
+
+.button__container{
+    padding: 20px;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    background: linear-gradient(black, black) padding-box,
+        linear-gradient(135deg, #B401B3, #B401B3) border-box;
+    box-shadow:
+            0 0 10px #B401B3,
+            0 0 10px #B401B3,
+            0 0 10px #B401B3,
+            0 0 10px #B401B3,
+            0 0 10px #B401B3,
+            0 0 10px #B401B3;
+    text-align: center;
+    cursor: pointer;
+    padding: 20px 20px;
+}
+
+.button__containerdarkblue {
+    padding: 20px;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    background: linear-gradient(black, black) padding-box,
+        linear-gradient(135deg, #44449C, #44449C) border-box;
+    box-shadow:
+        0 0 10px #44449C,
+        0 0 10px #44449C,
+        0 0 10px #44449C,
+        0 0 10px #44449C,
+        0 0 10px #44449C,
+        0 0 10px #44449C;
+    text-align: center;
+    cursor: pointer;
+    padding: 20px 20px;
+}
+
+.button__containerpurple {
+    padding: 20px;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    background: linear-gradient(black, black) padding-box,
+        linear-gradient(135deg, #541C94, #541C94) border-box;
+    box-shadow:
+        0 0 10px #541C94,
+        0 0 10px #541C94,
+        0 0 10px #541C94,
+        0 0 10px #541C94,
+        0 0 10px #541C94,
+        0 0 10px #541C94;
+    text-align: center;
+    cursor: pointer;
+    padding: 20px 20px;
+}
+
+.button__containergreen {
+    padding: 20px;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    background: linear-gradient(black, black) padding-box,
+        linear-gradient(135deg, #5DDBAC, #5DDBAC) border-box;
+    box-shadow:
+        0 0 10px #5DDBAC,
+        0 0 10px #5DDBAC,
+        0 0 10px #5DDBAC,
+        0 0 10px #5DDBAC,
+        0 0 10px #5DDBAC,
+        0 0 10px #5DDBAC;
+    text-align: center;
+    cursor: pointer;
+    padding: 20px 20px;
+}
+
+.button__containerblue {
+    padding: 20px;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    background: linear-gradient(black, black) padding-box,
+        linear-gradient(135deg, #50CEE1, #50CEE1) border-box;
+    box-shadow:
+        0 0 10px #50CEE1,
+        0 0 10px #50CEE1,
+        0 0 10px #50CEE1,
+        0 0 10px #50CEE1,
+        0 0 10px #50CEE1,
+        0 0 10px #50CEE1;
+    text-align: center;
+    cursor: pointer;
+    padding: 20px 20px;
 }
 
 .article__card--pink{
@@ -45,8 +182,6 @@
         0 0 40px var(--buttoncolor);
 }
 
-
-
 .btnbleu{
     font-family: var(--font-family-title);
     text-transform: uppercase;
@@ -56,4 +191,50 @@
             0 0 10px var(--buttoncolor),
             0 0 20px var(--buttoncolor),
             0 0 40px var(--buttoncolor);
+}
+
+.bouton__suivant{
+    font-family: var(--font-family-title);
+    font-size: var(--font-size-subtitle);
+    color: var(--white);
+    font-weight: var(--font-weight-light);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-shadow:
+        0 0 10px var(--pink),
+         0 0 2px var(--pink),
+         0 0 5px var(--pink),
+         0 0 40px var(--pink);
+    padding-top: 160px;
+    margin-bottom: 126px;
+    text-align: center;
+    transition: all 0.2s ease;
+    animation: clignoter 0.8s infinite alternate;
+}
+
+@keyframes clignoter {
+    0% {
+        text-shadow:
+            0 0 10px var(--buttoncolor),
+            0 0 20px var(--buttoncolor),
+            0 0 30px var(--buttoncolor),
+            0 0 20px var(--buttoncolor);
+    }
+
+    50% {
+        text-shadow:
+            0 0 5px var(--buttoncolor),
+            0 0 10px var(--buttoncolor),
+            0 0 15px var(--buttoncolor),
+            0 0 15px var(--buttoncolor);
+        opacity: 5.0;
+    }
+
+    100% {
+        text-shadow:
+            0 0 10px var(--pink),
+            0 0 20px var(--pink),
+            0 0 30px var(--pink),
+            0 0 20px var(--pink);
+    }
 }

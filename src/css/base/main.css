@@ -106,6 +106,10 @@ ul{
     margin-bottom: 0px;
 }
 
+.article__textlivre{
+    margin-top: var(--space-img);
+}
+
 .legende1{
     margin-bottom: var(--space-img);
 }

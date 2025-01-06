@@ -1,0 +1,62 @@
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-right: 35px;
+}
+
+.form__title {
+    font-family: var(--font-family-title);
+    color: var(--white);
+    font-size: var(--font-size-body2);
+    text-transform: uppercase;
+    letter-spacing: 4.6px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 280px;
+    padding: 10px 15px;
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+    color: var(--black);
+    background: var(--white);
+    border: 2px solid var(--lightblue);
+    border-radius: 8px;
+    box-shadow:
+            0 0 10px var(--lightblue),
+            0 0 10px var(--lightblue),
+            0 0 10px var(--lightblue),
+            0 0 10px var(--lightblue),
+            0 0 10px var(--lightblue),
+            0 0 10px var(--lightblue);
+   
+}
+
+
+/* Bouton d'envoi */
+form button {
+    padding: 10px 20px;
+    color: #000;
+    background: var(--white);
+    border: 2px solid var(--lightblue);
+     box-shadow:
+            0 0 10px var(--lightblue),
+            0 0 10px var(--lightblue),
+            0 0 10px var(--lightblue),
+            0 0 10px var(--lightblue),
+            0 0 10px var(--lightblue),
+            0 0 10px var(--lightblue);
+    border-radius: 8px;
+    cursor: pointer;
+    ;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Effet sur le bouton */
+form button:hover {
+    color: #fff;
+    background: var(--lightblue);
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.8);
+}

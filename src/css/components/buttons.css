@@ -3,7 +3,6 @@
     font-size: var(--font-size-button);
     text-transform: uppercase;
     letter-spacing: 1px;
-    
 }
 
 .hero__sous-titre {
@@ -43,12 +42,10 @@
 .hero__sous-titre:hover {
     animation: none;
     text-shadow:
-        0 0 10px #00f6ff,
-        0 0 20px #00f6ff,
-        0 0 40px #00f6ff,
+        0 0 40px var(--buttoncolor),
         0 0 80px #00c2e5;
-    color: #00f6ff;
-    border-color: #00f6ff;
+    color: var(--buttoncolor);
+    border-color: var(--buttoncolor);
     transform: scale(1.05);
 }
 
@@ -57,17 +54,15 @@
     justify-content: center;
     text-align: center;
 }
+
 .btn__containerpink{
-    border: 2px solid transparent;
+    border: 3px solid var(--pink);
     border-radius: 15px;
-    background: var(--black);
     box-shadow:
-            0 0 10px #B401B3,
-            0 0 10px #B401B3,
-            0 0 10px #B401B3,
-            0 0 10px #B401B3,
-            0 0 10px #B401B3,
-            0 0 10px #B401B3;
+            0 0 10px var(--pink),
+            0 0 10px var(--pink),
+            0 0 10px var(--pink),
+            0 0 10px var(--pink);
     text-align: center;
     cursor: pointer;
     padding: 17px;
@@ -75,17 +70,13 @@
 }
 
 .btn__containerblue {
-    border: 2px solid transparent;
+    border: 3px solid var(--blue);
     border-radius: 15px;
-    background: var(--black);
-     
     box-shadow:
-        0 0 10px #2B53D5,
-        0 0 10px #2B53D5,
-        0 0 10px #2B53D5,
-        0 0 10px #2B53D5,
-        0 0 10px #2B53D5,
-        0 0 10px #2B53D5;
+        0 0 10px var(--blue),
+        0 0 10px var(--blue),
+        0 0 10px var(--blue),
+        0 0 10px var(--blue);
     text-align: center;
     cursor: pointer;
     padding: 17px;
@@ -93,16 +84,13 @@
 }
 
 .btn__containerpurple {
-    border: 2px solid transparent;
+    border: 3px solid var(--purple);
     border-radius: 15px;
-    background: var(--black);
     box-shadow:
-        0 0 10px #541C94,
-        0 0 10px #541C94,
-        0 0 10px #541C94,
-        0 0 10px #541C94,
-        0 0 10px #541C94,
-        0 0 10px #541C94;
+        0 0 10px var(--purple),
+        0 0 10px var(--purple),
+        0 0 10px var(--purple),
+        0 0 10px var(--purple);
     text-align: center;
     cursor: pointer;
     padding: 17px;
@@ -110,16 +98,13 @@
 }
 
 .btn__containergreen {
-    border: 2px solid transparent;
+    border: 3px solid var(--lightblue);
     border-radius: 15px;
-    background: var(--black);
     box-shadow:
-        0 0 10px #5DDBAC,
-        0 0 10px #5DDBAC,
-        0 0 10px #5DDBAC,
-        0 0 10px #5DDBAC,
-        0 0 10px #5DDBAC,
-        0 0 10px #5DDBAC;
+        0 0 10px var(--lightblue),
+        0 0 10px var(--lightblue),
+        0 0 10px var(--lightblue),
+        0 0 10px var(--lightblue);
     text-align: center;
     cursor: pointer;
     padding: 17px;
@@ -127,16 +112,11 @@
 }
 
 .btn__containerlightblue{
-    border: 2px solid transparent;
+    border: 3px solid var(--buttoncolor);
     border-radius: 15px;
-    background: var(--black);
     box-shadow:
-        0 0 10px #50CEE1,
-        0 0 10px #50CEE1,
-        0 0 10px #50CEE1,
-        0 0 10px #50CEE1,
-        0 0 10px #50CEE1,
-        0 0 10px #50CEE1;
+        0 0 10px var(--buttoncolor),
+        0 0 10px var(--buttoncolor);
     text-align: center;
     cursor: pointer;
     padding: 17px;
@@ -146,73 +126,56 @@
 .article__card--pink{
     text-shadow:
         0 0 10px var(--pink),
-        0 0 2px var(--pink),
-        0 0 5px var(--pink),
-        0 0 40px var(--pink);
+        0 0 10px var(--pink);
 }
 
 .article__card--blue{
     text-shadow:
         0 0 10px var(--blue),
-        0 0 2px var(--blue),
-        0 0 5px var(--blue),
-        0 0 40px var(--blue);
+        0 0 10px var(--blue);
 }
 
 .article__card--purple {
     text-shadow:
         0 0 10px var(--purple),
-        0 0 2px var(--purple),
-        0 0 5px var(--purple),
-        0 0 40px var(--purple);
+        0 0 10px var(--purple),
+        0 0 20px var(--purple);
 }
 
 .article__card--green {
     text-shadow:
         0 0 10px var(--lightblue),
-        0 0 2px var(--lightblue),
-        0 0 5px var(--lightblue),
-        0 0 40px var(--lightblue);
+        0 0 10px var(--lightblue);
 }
 
-.article__card--lighblue {
+.article__card--lightblue{
     text-shadow:
-        0 0 10px var(--buttoncolor),
-        0 0 2px var(--buttoncolor),
-        0 0 5px var(--buttoncolor),
-        0 0 40px var(--buttoncolor);
+        0 0 10px var(--buttoncolor),  
+        0 0 10px var(--buttoncolor);
 }
 
 .btnbleu__text{
         font-family: var(--font-family-title);
         font-size: var(--font-size-button);
         text-transform: uppercase;
-        letter-spacing: 1px;
         text-shadow:
             0 0 10px var(--buttoncolor),
-            0 0 5px var(--buttoncolor),
-            0 0 5px var(--buttoncolor),
+            0 0 10px var(--buttoncolor),
+            0 0 10px var(--buttoncolor),
             0 0 10px var(--buttoncolor);
-        padding-top: 15px;
-        padding-bottom: 15px;
-        margin-top: var(--space-button);
         line-height: 150%;
         text-align: center;
         text-transform: uppercase;
-       
+        margin:0;   
 }
 
 .btnbleu__container{
-    padding-left: 5px;
+    margin-top: var(--space-button);
+    padding: 10px 30px;
+    border: 5px solid var(--buttoncolor);
     border-radius: 50px;
-        background: var(--black);
-        background-clip: padding-box;
-        box-shadow:
-            0 0 15px #50CEE1,
-            0 0 15px #50CEE1,
-            0 0 15px #5DDBAC,
-            0 0 10px #5DDBAC;
-        cursor: pointer;    
+    box-shadow: 0 0 15px var(--buttoncolor);
+    cursor: pointer;    
 }
 
 .bouton__suivant{
@@ -223,9 +186,6 @@
     text-transform: uppercase;
     letter-spacing: 5px;
     text-shadow:
-        0 0 10px var(--pink),
-         0 0 2px var(--pink),
-         0 0 5px var(--pink),
          0 0 40px var(--pink);
     margin-top: 160px;
     margin-bottom: 126px;
@@ -257,8 +217,4 @@
     gap: 30px;
 }
 
-.filmbtn{
-    margin-bottom: var(--space-button);
-    padding-left: 30px;
-    padding-right: 30px;
-}
+

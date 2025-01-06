@@ -103,22 +103,28 @@
             </p>
         </div>
 
-        <form action="votre-script-de-traitement.php" method="POST">
-      <div>
-        <label for="nom">Nom complet</label>
-        <input type="text" id="nom" name="nom" placeholder="Nom complet" required>
-
-        <label for="email">Adresse e-mail</label>
-        <input type="email" id="email" name="email" placeholder="Adresse e-mail" required>
-
-        <label for="objet">Objet</label>
-        <input type="text" id="objet" name="objet" placeholder="Objet" required>
-
-        <label for="message">Message</label>
-        <textarea id="message" name="message" rows="5" placeholder="Message " required></textarea>
+    <form action="votre-script-de-traitement.php" method="POST">
+        <div class="form__nom--container">
+            <label class="form__title" for="nom">Nom complet</label>
+            <input type="text" id="nom" name="nom" placeholder="Nom complet" required>
         </div>
 
-        <button type="submit">Envoyer</button>
+            <div class="form__mail--container">
+                <label class="form__title" for="email">Adresse mail</label>
+                <input type="email" id="email" name="email" placeholder="Adresse e-mail" required>
+            </div>
+
+            <div class="form__objet--container">
+                <label class="form__title" for="objet">Objet</label>
+             <input type="text" id="objet" name="objet" placeholder="Objet" required>
+         </div>
+
+            <div class="form__message--container">
+                <label class="form__title" for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Message " required></textarea>
+            </div>
+        
+        <button class="btn form__btn" type="submit">Envoyer</button>
     </form>
         
     </main>

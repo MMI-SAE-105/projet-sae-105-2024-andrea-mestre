@@ -2,8 +2,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap:10px;
-    margin-left: 23px;
+    gap: 27px;
+    margin-left: 25px;
     margin-right: 23px;
     margin-bottom: -15px;
     
@@ -72,13 +72,14 @@
     margin-right: -18px;
 }
 
-.header__neon--img{
-    width: 100%;
-    height: 100%;
+.header__neon {
+    width: 420px;
+    margin-left: 72px;
+   
 }
 
-.header__neon{
-    display: flex;
-    justify-content: center ; 
+.header__neon--img{
+    width: 450px;
     
 }
+

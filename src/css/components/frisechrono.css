@@ -1,0 +1,71 @@
+.frise__itempink{
+    padding: 35px 20px;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    background: var(--black);
+    box-shadow:
+        0 0 10px var(--pink),
+        0 0 10px var(--pink),
+        0 0 10px var(--pink),
+        0 0 10px var(--pink),
+        0 0 10px var(--pink),
+        0 0 10px var(--pink);
+    text-align: center; 
+    margin-left: 10px;
+}
+
+.frise__text{
+    margin-top: var(--space-title);
+    margin-bottom: 0;   
+}
+
+.frise__itemgreen{
+    padding: 35px 20px;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    background: var(--black);
+    box-shadow:
+        0 0 10px var(--lightblue),
+        0 0 10px var(--lightblue),
+        0 0 10px var(--lightblue),
+        0 0 10px var(--lightblue),
+        0 0 10px var(--lightblue),
+        0 0 10px var(--lightblue);
+    text-align: center;
+    margin-right: 5px;
+    margin-top: 180px;
+}
+
+.frise__itemblue{
+    padding: 35px 20px;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    background: var(--black);
+    box-shadow:
+        0 0 10px var(--blue),
+        0 0 10px var(--blue),
+        0 0 10px var(--blue),
+        0 0 10px var(--blue),
+        0 0 10px var(--blue),
+        0 0 10px var(--blue);
+    text-align: center;
+    margin-top: 14px;
+    margin-bottom: 10px;
+}
+
+.frise__itempurple {
+    padding: 35px 20px;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    background: var(--black);
+    box-shadow:
+        0 0 10px var(--purple),
+        0 0 10px var(--purple),
+        0 0 10px var(--purple),
+        0 0 10px var(--purple),
+        0 0 10px var(--purple),
+        0 0 10px var(--purple);
+    text-align: center;
+    margin-top: 180px;
+}
+

@@ -119,3 +119,35 @@ footer {
     align-items: center;
     padding-top: 50px;
 }
+
+.frise__img--console {
+    width: 164px;
+    position: relative;
+    top: 30px;
+    right: 20px;
+}
+
+.frise__img--cpi {
+    width: 164px;
+    position: relative;
+    top: 550px;
+    left: 200px;
+}
+
+.frise__neon1{
+    width: 280px ;
+    position: absolute;
+    left: 50px;
+}
+
+.frise__neon2 {
+    width: 240px;
+    position: absolute;
+    left: 130px;
+}
+
+.frise__neon3 {
+    width: 170px;
+    position: absolute;
+    left: 30px;
+}

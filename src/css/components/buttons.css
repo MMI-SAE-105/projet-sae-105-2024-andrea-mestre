@@ -183,7 +183,6 @@
         0 0 40px var(--buttoncolor);
 }
 
-
 .btnbleu__text{
         font-family: var(--font-family-title);
         font-size: var(--font-size-button);
@@ -196,8 +195,6 @@
             0 0 10px var(--buttoncolor);
         padding-top: 15px;
         padding-bottom: 15px;
-        
-        
         margin-top: var(--space-button);
         line-height: 150%;
         text-align: center;
@@ -249,8 +246,7 @@
                 0 0 40px var(--darkblue);
         cursor: pointer;
         transition: all 0.2s ease;
-        animation: clignoter 0.8s infinite alternate;
-        
+        animation: clignoter 0.8s infinite alternate;       
 }
 
 .hero__btn--container{

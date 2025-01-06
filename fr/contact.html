@@ -106,25 +106,26 @@
     <form action="votre-script-de-traitement.php" method="POST">
         <div class="form__nom--container">
             <label class="form__title" for="nom">Nom complet</label>
-            <input type="text" id="nom" name="nom" placeholder="Nom complet" required>
+            <input type="text" id="nom" name="nom" placeholder="" required>
         </div>
 
             <div class="form__mail--container">
                 <label class="form__title" for="email">Adresse mail</label>
-                <input type="email" id="email" name="email" placeholder="Adresse e-mail" required>
+                <input type="email" id="email" name="email" placeholder="" required>
             </div>
 
             <div class="form__objet--container">
                 <label class="form__title" for="objet">Objet</label>
-             <input type="text" id="objet" name="objet" placeholder="Objet" required>
+             <input type="text" id="objet" name="objet" placeholder="" required>
          </div>
 
             <div class="form__message--container">
                 <label class="form__title" for="message">Message</label>
-                <textarea id="message" name="message" rows="5" placeholder="Message " required></textarea>
+                <textarea id="message" name="message" rows="5" placeholder="" required></textarea>
             </div>
-        
-        <button class="btn form__btn" type="submit">Envoyer</button>
+        <div class="btn btnform__container">
+            <button class="btn form__btn" type="submit">Envoyer</button>
+        </div>
     </form>
         
     </main>

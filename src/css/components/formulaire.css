@@ -1,8 +1,8 @@
 form {
     display: flex;
+    justify-content: center;
     flex-direction: column;
     gap: 50px;
-    padding-right: 35px;
 }
 
 .form__title {
@@ -18,43 +18,36 @@ form input[type="email"],
 form textarea {
     width: 280px;
     padding: 10px 15px;
-    font-family: 'Courier New', monospace;
-    font-size: 14px;
-    color: var(--black);
     background: var(--white);
-    border: 2px solid var(--lightblue);
-    border-radius: 8px;
+    border: 1px solid var(--lightblue);
+    border-radius: 10px;
     box-shadow:
             0 0 10px var(--lightblue),
             0 0 10px var(--lightblue),
-            0 0 10px var(--lightblue),
-            0 0 10px var(--lightblue),
-            0 0 10px var(--lightblue),
             0 0 10px var(--lightblue);
-   
 }
 
+.btnform__container{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 126px;
+}
 
-/* Bouton d'envoi */
 form button {
-    padding: 10px 20px;
-    color: #000;
+    color: var(--lightblue);
+    padding: 15px 25px;
     background: var(--white);
-    border: 2px solid var(--lightblue);
-     box-shadow:
-            0 0 10px var(--lightblue),
-            0 0 10px var(--lightblue),
-            0 0 10px var(--lightblue),
+    border: 2px solid transparent;
+    box-shadow:
             0 0 10px var(--lightblue),
             0 0 10px var(--lightblue),
             0 0 10px var(--lightblue);
     border-radius: 8px;
     cursor: pointer;
-    ;
     transition: all 0.3s ease-in-out;
 }
 
-/* Effet sur le bouton */
+
 form button:hover {
     color: #fff;
     background: var(--lightblue);

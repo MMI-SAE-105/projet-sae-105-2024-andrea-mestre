@@ -10,15 +10,12 @@
     --buttoncolor: #50CEE1;
     --lightblue: #5DDBAC;
     
-
-
     /*Typography */
     --font-family-title: 'Press Start 2P', sans-serif;
     --font-family-chapo: 'Courier Prime', sans-serif;
     --font-family-text: 'Montserrat', sans-serif;
 
     /*Tailles */
-
     --font-size-button: 10px;
     --font-size-legende: 12px;
     --font-size-body2: 15.5px;
@@ -34,10 +31,10 @@
     --font-weight-light: 400;
     --font-weidght-big: 700;
 
-
     /*Espacements */
     --space-img: 50px;
     --space-chapo: 200px;
     --space-button: 25px;
     --space-title: 25px;
+    --space-page: 27px;
 }

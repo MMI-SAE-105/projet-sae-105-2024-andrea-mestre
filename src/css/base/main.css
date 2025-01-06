@@ -1,21 +1,21 @@
 main{
-    padding-left: 27px;
-    padding-right: 27px;
+    padding-left: var(--space-page);
+    padding-right: var(--space-page);
 }
 
 body {
-    background-color: black;
+    background-color: var(--black);
 }
 
 p {
-    color: white;
+    color: var(--white);
 }
 
 h1 {
     font-family: var(--font-family-title);
     font-size: var(--font-size-title);
     color: var(--white);
-    font-weight: 400;
+    font-weight: var(--font-weight-light);
     letter-spacing: 5.6px;
     text-align: center;
     line-height: 170%;
@@ -29,7 +29,7 @@ h2{
     color: var(--white);
     font-weight: var(--font-weight-light);
     text-transform: uppercase;
-    letter-spacing: 5px;
+    letter-spacing: 5.6px;
     margin: 0;
 }
 
@@ -38,13 +38,6 @@ p{
     font-family: var(--font-family-text);
     font-size: var(--font-size-body2);
     line-height: 130%;
-}
-
-.chapo__publication{
-   font-family: var(--font-family-chapo);
-   color: var(--gray);
-   font-size: var(--font-size-time);
-   margin: 0;
 }
 
 a{
@@ -56,18 +49,19 @@ ul{
     list-style-type: none;
 }
 
+.chapo__publication {
+    font-family: var(--font-family-chapo);
+    color: var(--gray);
+    font-size: var(--font-size-time);
+    margin: 0;
+}
+
 .chapo {
     font-family: var(--font-family-chapo);
     font-size: var(--font-size-chapo);
     color: var(--white);
-
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-.console__chapo {
-    margin-top: 0;
-    padding-top: 5px;
+    padding-top: 0px;
+    margin-top: 10px;
 }
 
 .console__chapo2 {
@@ -75,36 +69,14 @@ ul{
     padding-bottom: 0;
 }
 
-.film__chapo{
-    padding-top: 0px;
-    margin-top: 5px;
-}
-
-.livre__chapo{
-    padding-top: 0px;
-    margin-top: 5px;
-}
-
-.realisateur__chapo{
-    padding-top: 0px;
-    margin-top: 5px;
-}
-
-.son__chapo{
-    padding-top: 0px;
-    margin-top: 5px;
-}
-
 .projets__chapo{
-    padding-top: 0px;
     padding-bottom: 0px;
-    margin-top: 0px;
     margin-bottom: 100px;
 }
 
 .home__chapo3{
     margin: 0;
-    padding-bottom: 200px;
+    padding-bottom: var(--space-chapo);
 }
 
 
@@ -132,7 +104,7 @@ ul{
 }
 
 .legende1{
-    margin-bottom: 50px;
+    margin-bottom: var(--space-img);
 }
 
 .legende2{

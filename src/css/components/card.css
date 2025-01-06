@@ -84,6 +84,7 @@
 
 .article__card--title{
     line-height: 150%;
+    margin-bottom: 15px;
 }
 
 .article__card--text{
@@ -91,4 +92,6 @@
     font-size: var(--font-size-body2);
     text-align: center;
     line-height: 130%;
+    margin-bottom: 0px;
+    margin-top: 15px;
 }

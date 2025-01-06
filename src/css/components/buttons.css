@@ -52,8 +52,12 @@
     transform: scale(1.05);
 }
 
-.button__container{
-    padding: 20px;
+.btn__center--position {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.btn__containerpink{
     border: 2px solid transparent;
     border-radius: 15px;
     background: var(--black);
@@ -66,29 +70,29 @@
             0 0 10px #B401B3;
     text-align: center;
     cursor: pointer;
-    padding: 20px 20px;
+    padding: 17px;
+    width: 160px;
 }
 
-.button__containerdarkblue {
-    padding: 20px;
+.btn__containerblue {
     border: 2px solid transparent;
     border-radius: 15px;
     background: var(--black);
      
     box-shadow:
-        0 0 10px #44449C,
-        0 0 10px #44449C,
-        0 0 10px #44449C,
-        0 0 10px #44449C,
-        0 0 10px #44449C,
-        0 0 10px #44449C;
+        0 0 10px #2B53D5,
+        0 0 10px #2B53D5,
+        0 0 10px #2B53D5,
+        0 0 10px #2B53D5,
+        0 0 10px #2B53D5,
+        0 0 10px #2B53D5;
     text-align: center;
     cursor: pointer;
-    padding: 20px 20px;
+    padding: 17px;
+    width: 160px;
 }
 
-.button__containerpurple {
-    padding: 20px;
+.btn__containerpurple {
     border: 2px solid transparent;
     border-radius: 15px;
     background: var(--black);
@@ -101,11 +105,11 @@
         0 0 10px #541C94;
     text-align: center;
     cursor: pointer;
-    padding: 20px 20px;
+    padding: 17px;
+    width: 160px;
 }
 
-.button__containergreen {
-    padding: 20px;
+.btn__containergreen {
     border: 2px solid transparent;
     border-radius: 15px;
     background: var(--black);
@@ -118,11 +122,11 @@
         0 0 10px #5DDBAC;
     text-align: center;
     cursor: pointer;
-    padding: 20px 20px;
+    padding: 17px;
+    width: 160px;
 }
 
-.button__containerblue {
-    padding: 20px;
+.btn__containerlightblue{
     border: 2px solid transparent;
     border-radius: 15px;
     background: var(--black);
@@ -135,7 +139,8 @@
         0 0 10px #50CEE1;
     text-align: center;
     cursor: pointer;
-    padding: 20px 20px;
+    padding: 17px;
+    width: 160px;
 }
 
 .article__card--pink{
@@ -146,12 +151,12 @@
         0 0 40px var(--pink);
 }
 
-.article__card--darkblue{
+.article__card--blue{
     text-shadow:
-        0 0 10px var(--darkblue),
-        0 0 2px var(--darkblue),
-        0 0 5px var(--darkblue),
-        0 0 40px var(--darkblue);
+        0 0 10px var(--blue),
+        0 0 2px var(--blue),
+        0 0 5px var(--blue),
+        0 0 40px var(--blue);
 }
 
 .article__card--purple {
@@ -170,7 +175,7 @@
         0 0 40px var(--lightblue);
 }
 
-.article__card--blue {
+.article__card--lighblue {
     text-shadow:
         0 0 10px var(--buttoncolor),
         0 0 2px var(--buttoncolor),

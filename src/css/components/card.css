@@ -1,70 +1,15 @@
-.article__card--container{
+.article__cardpink--container{
     padding: 20px;
     border: 2px solid transparent;
     border-radius: 15px;
-    background: linear-gradient(black, black) padding-box,
-            linear-gradient(135deg, #B401B3,#B401B3) border-box;
+    background: var(--black);
     box-shadow: 
-            0 0 10px #B401B3,
-            0 0 10px #B401B3,
-            0 0 10px #B401B3,
-            0 0 10px #B401B3,
-            0 0 10px #B401B3,
-            0 0 10px #B401B3;
-    text-align: center;
-    margin-bottom: var(--space-button);
-}
-
-.article__carddarkblue--container {
-    margin-top: 200px;
-    padding: 20px;
-    border: 2px solid transparent;
-    border-radius: 15px;
-    background: linear-gradient(black, black) padding-box,
-        linear-gradient(135deg, #44449C, #44449C) border-box;
-    box-shadow:
-        0 0 10px #44449C,
-        0 0 10px #44449C,
-        0 0 10px #44449C,
-        0 0 10px #44449C,
-        0 0 10px #44449C,
-        0 0 10px #44449C;
-    text-align: center;
-    margin-bottom: var(--space-button);
-}
-
-.article__cardpurple--container {
-    margin-top: 200px;
-    padding: 20px;
-    border: 2px solid transparent;
-    border-radius: 15px;
-    background: linear-gradient(black, black) padding-box,
-        linear-gradient(135deg, #541C94, #541C94) border-box;
-    box-shadow:
-        0 0 10px#541C94,
-        0 0 10px#541C94,
-        0 0 10px #541C94,
-        0 0 10px #541C94,
-        0 0 10px #541C94,
-        0 0 10px #541C94;
-    text-align: center;
-    margin-bottom: var(--space-button);
-}
-
-.article__cardgreen--container {
-    margin-top: 200px;
-    padding: 20px;
-    border: 2px solid transparent;
-    border-radius: 15px;
-    background: linear-gradient(black, black) padding-box,
-        linear-gradient(135deg, #5DDBAC, #5DDBAC) border-box;
-    box-shadow:
-        0 0 10px#5DDBAC,
-        0 0 10px#5DDBAC,
-        0 0 10px #5DDBAC,
-        0 0 10px #5DDBAC,
-        0 0 10px #5DDBAC,
-        0 0 10px #5DDBAC;
+            0 0 10px var(--pink),
+            0 0 10px var(--pink),
+            0 0 10px var(--pink),
+            0 0 10px var(--pink),
+            0 0 10px var(--pink),
+            0 0 10px var(--pink);
     text-align: center;
     margin-bottom: var(--space-button);
 }
@@ -74,30 +19,76 @@
     padding: 20px;
     border: 2px solid transparent;
     border-radius: 15px;
-    background: linear-gradient(black, black) padding-box,
-        linear-gradient(135deg, #5DDBAC, #50CEE1) border-box;
+    background: var(--black);
     box-shadow:
-        0 0 10px#50CEE1,
-        0 0 10px#50CEE1,
-        0 0 10px #50CEE1,
-        0 0 10px #50CEE1,
-        0 0 10px #50CEE1,
-        0 0 10px #50CEE1;
+        0 0 10px var(--blue),
+        0 0 10px var(--blue),
+        0 0 10px var(--blue),
+        0 0 10px var(--blue),
+        0 0 10px var(--blue),
+        0 0 10px var(--blue);
     text-align: center;
     margin-bottom: var(--space-button);
 }
 
+.article__cardpurple--container {
+    margin-top: 200px;
+    padding: 20px;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    background: var(--black);
+    box-shadow:
+        0 0 10px  var(--purple),
+        0 0 10px  var(--purple),
+        0 0 10px  var(--purple),
+        0 0 10px  var(--purple),
+        0 0 10px  var(--purple),
+        0 0 10px  var(--purple);
+    text-align: center;
+    margin-bottom: var(--space-button);
+}
+
+.article__cardgreen--container {
+    margin-top: 200px;
+    padding: 20px;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    background: var(--black);
+    box-shadow:
+        0 0 10px var(--lightblue),
+        0 0 10px var(--lightblue),
+        0 0 10px var(--lightblue),
+        0 0 10px var(--lightblue),
+        0 0 10px var(--lightblue),
+        0 0 10px var(--lightblue);
+    text-align: center;
+    margin-bottom: var(--space-button);
+}
+
+.article__cardlightblue--container{
+    margin-top: 200px;
+    padding: 20px;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    background: var(--black);
+    box-shadow:
+        0 0 10px var(--buttoncolor),
+        0 0 10px var(--buttoncolor),
+        0 0 10px var(--buttoncolor),
+        0 0 10px var(--buttoncolor),
+        0 0 10px var(--buttoncolor),
+        0 0 10px var(--buttoncolor);
+    text-align: center;
+    margin-bottom: var(--space-button);
+}
 
 .article__card--title{
     line-height: 150%;
 }
-
 
 .article__card--text{
     font-family: var(--font-family-text);
     font-size: var(--font-size-body2);
     text-align: center;
     line-height: 130%;
-    padding-left: 15px;
-    padding-right: 15px;
 }

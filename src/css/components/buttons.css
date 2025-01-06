@@ -178,6 +178,11 @@
     cursor: pointer;    
 }
 
+.btnbleu__container--size{
+    padding-left: 62px;
+    padding-right: 62px;
+}
+
 .bouton__suivant{
     font-family: var(--font-family-title);
     font-size: var(--font-size-subtitle);

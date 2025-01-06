@@ -16,6 +16,6 @@ if (toggle && nav) {
 closeBtn.addEventListener("click", () => {
     nav.ariaHidden = true;
     toggle.ariaExpanded = false;
-    body.classList.remove("noscroll");
+    page.classList.remove("noscroll");
 });
 

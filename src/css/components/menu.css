@@ -1,7 +1,3 @@
-body.noscroll {
-    overflow: hidden;
-}
-
 .menu[aria-hidden="false"] {
     transform: translateX(0);
     visibility: visible;
@@ -30,7 +26,10 @@ body.noscroll {
     padding: 0;
     transform: translate(-100%);
     transition: transform 0.3s ease, visibility 0s 0.3s;
-    
+}
+
+body.noscroll {
+    overflow: hidden;
 }
 
 .menu__list {

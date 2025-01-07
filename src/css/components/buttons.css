@@ -11,10 +11,8 @@
     font-weight: var(--font-weight-light);
     letter-spacing: 3px;
     text-transform: uppercase;
-    cursor: pointer;
     transition: all 0.2s ease;
     animation: clignoter 0.8s infinite alternate;
-    padding-top: 70px;
 }
 
 @keyframes clignoter {

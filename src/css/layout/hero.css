@@ -7,6 +7,7 @@
 }
 
 .hero__titre{
+    padding-bottom: 70px;
     text-shadow:
             0 0 15px var(--buttoncolor),
             0 0 10px var(--buttoncolor),

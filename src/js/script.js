@@ -19,3 +19,19 @@ closeBtn.addEventListener("click", () => {
     page.classList.remove("noscroll");
 });
 
+const carousel = document.querySelector(".carrousel__container");
+const prevButton = document.querySelector(".carrousel__btn--prev");
+const nextButton = document.querySelector(".carrousel__btn--next");
+
+if (carousel) {
+    const premierItem = document.querySelector(".carrousel__item");
+    const scrollAmount = premierItem.clientWidth;
+
+    prevButton.addEventListener("click", () => {
+        carousel.scrollBy({ left: -scrollAmount, behavior: "smooth" });
+    });
+
+    nextButton.addEventListener("click", () => {
+        carousel.scrollBy({ left: +scrollAmount, behavior: "smooth" });
+    });
+}

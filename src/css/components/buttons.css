@@ -206,7 +206,7 @@
 
 .hero__btn{
     font-family: var(--font-family-title);
-        font-size: var(--font-size-subtitle);
+        font-size: var(--font-size-body2);
         text-transform: uppercase;
         letter-spacing: 5px;
         text-shadow:

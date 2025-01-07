@@ -1,7 +1,16 @@
 .carrousel__container{
     display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x proximity; 
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    margin-right: -25px;
+    margin-left: -25px;
+}
+
+.carrousel__item{
+    scroll-snap-align: center;
     
-       
 }
 
 .carrousel__container--neon{
@@ -58,7 +67,6 @@
     align-items: center;
     justify-content: center;
 }
-
 
 .carrousel__btn--next{
         border: none;

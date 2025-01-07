@@ -8,7 +8,7 @@
     height: 100%;
     font-family: var(--font-family-chapo);
     font-size: var(--font-size-chapo);
-    text-align: center;    
+    text-align: center; 
 }
 
 .title__glossaire {
@@ -17,6 +17,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 
 .projets__titre{
@@ -29,6 +30,35 @@
             0 0 10px var(--purple),
             0 0 10px var(--purple),
             0 0 10px var(--purple);
+    transition: all 0.2s ease;
+    animation: animation 0.8s infinite alternate;
+}
+
+@keyframes animation {
+    0% {
+        text-shadow:
+            0 0 10px var(--purple),
+            0 0 20px var(--purple),
+            0 0 30px var(--purple),
+            0 0 20px var(--purple);
+    }
+
+    50% {
+        text-shadow:
+            0 0 5px var(--purple),
+            0 0 10px var(--purple),
+            0 0 15px var(--purple),
+            0 0 15px var(--purple);
+        opacity: 5.0;
+    }
+
+    100% {
+        text-shadow:
+            0 0 10px var(--black),
+            0 0 20px var(--black),
+            0 0 30px var(--black),
+            0 0 20px var(--black);
+    }
 }
 
 .projets__titre2{

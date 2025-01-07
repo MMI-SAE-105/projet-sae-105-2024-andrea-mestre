@@ -1,7 +1,7 @@
 .carrousel__container{
     display: flex;
-    flex-direction: row;
-    justify-content: center;   
+    
+       
 }
 
 .carrousel__container--neon{
@@ -51,37 +51,25 @@
         0 0 10px var(--buttoncolor),
         0 0 10px var(--buttoncolor);
 }
-.carrousel__btn--prev {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: transparent;
-    border: 2px solid #fff;
-    color: #fff;
-    font-size: 2rem;
-    cursor: pointer;
-    border-radius: 50%;
-    padding: 10px;
-    transition: 0.3s;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
-    
+
+.carrouselbtn__container{
+    padding-top: var(--space-button);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+
 .carrousel__btn--next{
-       
         border: none;
         background: transparent;
-        cursor: pointer;
-        
-      
+        cursor: pointer;     
 }
 
 .carrousel__btn--prev{
     border: none;
     background: transparent;
     cursor: pointer;
-    
-    
 }
 
 

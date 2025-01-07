@@ -64,6 +64,9 @@ footer {
 
 .hero__icon--papillion{
     width: 161px;
+    position: absolute;
+    top: 130px;
+    left: 4px;
 } 
 
 .hero__icon--livre {

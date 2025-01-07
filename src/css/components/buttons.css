@@ -5,7 +5,12 @@
     letter-spacing: 1px;
 }
 
-.hero__sous-titre {
+.hero__btn--commencer {
+    font-family: var(--font-family-title);
+    font-size: var(--font-size-small-title);
+    font-weight: var(--font-weight-light);
+    letter-spacing: 3px;
+    text-transform: uppercase;
     cursor: pointer;
     transition: all 0.2s ease;
     animation: clignoter 0.8s infinite alternate;

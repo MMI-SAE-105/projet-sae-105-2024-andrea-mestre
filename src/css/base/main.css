@@ -131,3 +131,7 @@ ul{
     padding-top: var(--space-chapo);
 }
 
+.text__italic{
+    font-family: var(--font-family-chapo);
+    font-style: italic;
+}

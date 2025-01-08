@@ -18,7 +18,7 @@
             <div class="header__container">
             <div class="header__left">
                 <a class="header__logo--link" href="/index.html" aria-label="retourner à l'acceuil">
-                    <img class="header2__logo--icon" src="/assets/icon/logo.webp" alt="Logo pour retourner à l'accueil">
+                    <img class="header2__logo--icon" src="/assets/icon/logo.webp" alt="Logo pour retourner à l'acceuil">
                 </a>
             </div>
 
@@ -98,20 +98,16 @@
             <h1 class="hero__subtitle">Bandersnatch</h1>
 
             <div class="hero__btn--container" >
-            <a href="/fr/articlelivre.html" aria-label="Boutons pour passer à la page suivante">
-                <p class="hero__btn passer">Passer</p>
-            </a>
-            <a href="/fr/articlefilm.html#bandersnatch" aria-label="Boutons pour continuer la lecture">
-                <p class="hero__btn continuer ">Continuer</p>
-            </a>
+            <a class="hero__btn passer" href="/fr/articlelivre.html" aria-label="Boutons pour passer à la page suivante">Passer</a>
+            <a class="hero__btn continuer" href="/fr/articlefilm.html#bandersnatch" aria-label="Boutons pour continuer la lecture">Continuer</a>
             </div>
         </div>
-
     </section>
+
     <main>
         <div class="chapo__container" id="bandersnatch">
             <p class="chapo__publication">Par Andréa Mestre</p>
-            <time class="chapo__publication" datetime="2150-10-22T18:00">Publié 22/10/2150 à 18h</time>
+                <time class="chapo__publication" datetime="2150-10-22T18:00">Publié 22/10/2150 à 18h</time>
             <p class="chapo film__chapo">
                 Plongez dans "Bandersnatch", un épisode interactif du 21ᵉ siècle, qui remet en question le libre arbitre. 
                 Est-ce un simple divertissement ou un outil de manipulation psychologique ?
@@ -123,8 +119,9 @@
 
         <section class="article article__puzzle">
             <header class="header__puzzle">
-            <h2 class="article__title">Un Puzzle Technologique et Psychologique du Passé</h2>
+                <h2 class="article__title">Un Puzzle Technologique et Psychologique du Passé</h2>
             </header>
+
             <p class="article__text">
                 Bandersnatch est un système interactif qui permet aux utilisateurs de prendre des décisions à travers une interface engageante. 
             </p>
@@ -136,16 +133,17 @@
             <div class="article__video--container">
                 <p class="video__title">Voici un court extrait de ce système interactif &colon;</p>
                 <div class="video__container">
-                <video class="article__video" controls>
-                    <source src="/assets/video/bandersnatchande_annonce.mp4" type="video/mp4">
-                </video>
+                    <video class="article__video" controls>
+                        <source src="/assets/video/bandersnatchande_annonce.mp4" type="video/mp4">
+                    </video>
+                </div>
             </div>
             <div class="btnbleu__container--size">
                 <a class="btnbleu article__video--btn " href="https://www.netflix.com/fr/title/80988062" aria-label="Aller sur la page de l'épisode Bandersnatch sur Netflix">
-                <div class="btnbleu__container">
-                    <p class="btnbleu__text filmbtn">En savoir plus</p>
-                </div>
-            </a>
+                    <div class="btnbleu__container">
+                        <p class="btnbleu__text filmbtn">En savoir plus</p>
+                    </div>
+                </a>
             </div>
 
             <p class="article__text">
@@ -190,7 +188,7 @@
             <div class="carrousel__container">
                 <div class="carrousel__item">
                     <div class="carrousel__container--img">
-                        <img class="carrousel__img" src="/assets/img/affiche-ghost_in_the_shell.webp" alt="Affcihe Ghost in the Shell">
+                        <img class="carrousel__img" src="/assets/img/affiche-ghost_in_the_shell.webp" alt="Affcihe Ghost in the Shell" loading="lazy">
                     </div>
 
                     <div class="carrousel__container--neon">
@@ -209,7 +207,7 @@
 
                 <div class="carrousel__item">
                     <div class="carrousel__container--img">
-                        <img class="carrousel__img" src="/assets/img/affiche-matrix.webp" alt="Affiche Matrix">
+                        <img class="carrousel__img" src="/assets/img/affiche-matrix.webp" alt="Affiche Matrix" loading="lazy">
                     </div>
 
                     <div class="carrousel__container--neon">
@@ -229,7 +227,7 @@
                 
                 <div class="carrousel__item">
                     <div class="carrousel__container--img">
-                        <img class="carrousel__img" src="/assets/img/affiche-aclockworkorange.webp" alt="Affiche Orange Mécanique">
+                        <img class="carrousel__img" src="/assets/img/affiche-aclockworkorange.webp" alt="Affiche Orange Mécanique" loading="lazy">
                     </div>
 
                     <div class="carrousel__container--neon">
@@ -249,7 +247,7 @@
 
                 <div class="carrousel__item">
                     <div class="carrousel__container--img"> 
-                        <img class="carrousel__img" src="/assets/img/affiche-inception.webp" alt="Affiche Inception">
+                        <img class="carrousel__img" src="/assets/img/affiche-inception.webp" alt="Affiche Inception" loading="lazy">
                     </div>
 
                     <div class="carrousel__container--neon">
@@ -270,10 +268,10 @@
                     </div>
                 </div>
                 <div class="carrouselbtn__container">
-                    <button class="carrousel__btn--prev" aria-label="Buton pour décaler à gauche">
+                    <button class="carrousel__btn--prev" aria-label="Bouton pour passer à la carte précédente">
                         <img src="/assets/icon/prev__btn.svg" alt="bouton précédent">
                     </button>
-                    <button class="carrousel__btn--next" aria-label="Bouton pour décaler à droite">
+                    <button class="carrousel__btn--next" aria-label="Bouton pour passer à la carte suivante">
                         <img src="/assets/icon/next_btn.svg" alt="bouton suivant">
                     </button>
                 </div>

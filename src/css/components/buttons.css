@@ -46,9 +46,7 @@
     animation: none;
     text-shadow:
         0 0 40px var(--buttoncolor),
-        0 0 80px #00c2e5;
-    color: var(--buttoncolor);
-    border-color: var(--buttoncolor);
+        0 0 80px var(--buttoncolor);
     transform: scale(1.05);
 }
 
@@ -63,8 +61,6 @@
     border-radius: 15px;
     box-shadow:
             0 0 10px var(--pink),
-            0 0 10px var(--pink),
-            0 0 10px var(--pink),
             0 0 10px var(--pink);
     text-align: center;
     cursor: pointer;
@@ -77,8 +73,6 @@
     border-radius: 15px;
     box-shadow:
         0 0 10px var(--blue),
-        0 0 10px var(--blue),
-        0 0 10px var(--blue),
         0 0 10px var(--blue);
     text-align: center;
     padding: 17px;
@@ -89,8 +83,6 @@
     border: 3px solid var(--purple);
     border-radius: 15px;
     box-shadow:
-        0 0 10px var(--purple),
-        0 0 10px var(--purple),
         0 0 10px var(--purple),
         0 0 10px var(--purple);
     text-align: center;
@@ -103,8 +95,6 @@
     border: 3px solid var(--lightblue);
     border-radius: 15px;
     box-shadow:
-        0 0 10px var(--lightblue),
-        0 0 10px var(--lightblue),
         0 0 10px var(--lightblue),
         0 0 10px var(--lightblue);
     text-align: center;
@@ -167,7 +157,6 @@
             0 0 10px var(--buttoncolor);
         line-height: 150%;
         text-align: center;
-        text-transform: uppercase;
         margin:0;   
 }
 
@@ -176,8 +165,7 @@
     padding: 10px 30px;
     border: 5px solid var(--buttoncolor);
     border-radius: 50px;
-    box-shadow: 0 0 15px var(--buttoncolor);
-    cursor: pointer;    
+    box-shadow: 0 0 15px var(--buttoncolor);   
 }
 
 .btnbleu__container--size{
@@ -211,7 +199,6 @@
                 0 0 10px var(--darkblue),
                 0 0 20px var(--darkblue),
                 0 0 40px var(--darkblue);
-        cursor: pointer;
         transition: all 0.2s ease;
         animation: clignoter 0.8s infinite alternate;       
 }

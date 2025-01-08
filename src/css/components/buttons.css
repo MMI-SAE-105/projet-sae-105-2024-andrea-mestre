@@ -211,4 +211,43 @@
     gap: 20px;
 }
 
+.carrouselbtn__container {
+    padding-top: var(--space-button);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carrousel__btn--next {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.carrousel__btn--prev {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.btnform__container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 126px;
+}
+
+form button {
+    color: var(--lightblue);
+    padding: 15px 25px;
+    background: var(--white);
+    border: 2px solid transparent;
+    box-shadow:
+        0 0 10px var(--lightblue),
+        0 0 10px var(--lightblue),
+        0 0 10px var(--lightblue);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
 

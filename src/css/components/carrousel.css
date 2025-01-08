@@ -10,7 +10,6 @@
 
 .carrousel__item{
     scroll-snap-align: center;
-    
 }
 
 .carrousel__container--neon{
@@ -61,24 +60,6 @@
         0 0 10px var(--buttoncolor);
 }
 
-.carrouselbtn__container{
-    padding-top: var(--space-button);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.carrousel__btn--next{
-        border: none;
-        background: transparent;
-        cursor: pointer;     
-}
-
-.carrousel__btn--prev{
-    border: none;
-    background: transparent;
-    cursor: pointer;
-}
 
 
 

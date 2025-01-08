@@ -2,14 +2,10 @@
     padding: 35px 20px;
     border: 2px solid transparent;
     border-radius: 15px;
-    background: var(--black);
     box-shadow:
         0 0 10px var(--pink),
-        0 0 10px var(--pink),
-        0 0 10px var(--pink),
-        0 0 10px var(--pink),
-        0 0 10px var(--pink),
-        0 0 10px var(--pink);
+        0 0 20px var(--pink),
+        0 0 20px var(--pink);
     text-align: center; 
     margin-left: 10px;
 }
@@ -23,14 +19,10 @@
     padding: 35px 20px;
     border: 2px solid transparent;
     border-radius: 15px;
-    background: var(--black);
     box-shadow:
         0 0 10px var(--lightblue),
-        0 0 10px var(--lightblue),
-        0 0 10px var(--lightblue),
-        0 0 10px var(--lightblue),
-        0 0 10px var(--lightblue),
-        0 0 10px var(--lightblue);
+        0 0 20px var(--lightblue),
+        0 0 20px var(--lightblue);
     text-align: center;
     margin-right: 5px;
     margin-top: 180px;
@@ -40,14 +32,10 @@
     padding: 35px 20px;
     border: 2px solid transparent;
     border-radius: 15px;
-    background: var(--black);
     box-shadow:
         0 0 10px var(--blue),
-        0 0 10px var(--blue),
-        0 0 10px var(--blue),
-        0 0 10px var(--blue),
-        0 0 10px var(--blue),
-        0 0 10px var(--blue);
+        0 0 20px var(--blue),
+        0 0 20px var(--blue);
     text-align: center;
     margin-top: 14px;
     margin-bottom: 10px;
@@ -57,14 +45,10 @@
     padding: 35px 20px;
     border: 2px solid transparent;
     border-radius: 15px;
-    background: var(--black);
     box-shadow:
         0 0 10px var(--purple),
-        0 0 10px var(--purple),
-        0 0 10px var(--purple),
-        0 0 10px var(--purple),
-        0 0 10px var(--purple),
-        0 0 10px var(--purple);
+        0 0 30px var(--purple),
+        0 0 30px var(--purple);
     text-align: center;
     margin-top: 180px;
 }

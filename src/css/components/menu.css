@@ -107,6 +107,22 @@ body.noscroll {
     padding: 9px 7px;
 }
 
+.menuEn__langue--fr{
+    font-family: var(--font-family-title);
+    font-size: var(--font-size-time);
+    border: 1px solid var(--white);
+    padding: 9px 7px;
+}
+
+.menuEn__langue--en{
+    font-family: var(--font-family-title);
+    font-size: var(--font-size-time);
+    border: 2.5px solid rgba(255, 255, 255, 0.7);
+    box-shadow: 0 0 5px rgba(255, 255, 255, 1.0);
+    padding: 9px 7px;
+    background: var(--pink);
+}
+
 
 
 

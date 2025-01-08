@@ -4,8 +4,7 @@ main{
 }
 
 body {
-    background-color: var(--black);
-    
+    background-color: var(--black);   
 }
 
 p {
@@ -20,8 +19,7 @@ h1 {
     letter-spacing: 5.6px;
     text-align: center;
     line-height: 170%;
-    margin: 0;
-       
+    margin: 0;   
 }
 
 h2{
@@ -57,7 +55,6 @@ ul{
     color: var(--gray);
     font-size: var(--font-size-time);
     margin: 0;
-
 }
 
 .chapo {

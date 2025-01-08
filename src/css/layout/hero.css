@@ -92,6 +92,7 @@
             0 0 20px var(--lightblue),
             0 0 40px var(--lightblue);
 }
+
 .hero__subtitle {
     font-size: var(--font-size-body);
     text-align: center;

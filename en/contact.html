@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="/src/css/style.css">
+    <script type="module" src="/src/js/script.js"></script>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/assets/favicon_io/site.webmanifest">
+</head>
+<body>
+    <section class="section section__hero">
+        <header class="header__hero">
+            <div class="header__container">
+            <div class="header__left">
+                <a class="header__logo--link" href="/en/index.html" aria-label="retourner à l'acceuil">
+                    <img class="header2__logo--icon" src="/assets/icon/logo.webp" alt="Logo pour retourner à l'acceuil">
+                </a>
+            </div>
+
+            <div class="header__center">
+                <p class="header__title">The Interactive Psyche Game Console</p>
+            </div>
+            <div class="header__right">
+                <button class="menu__icon" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+                    <img class="menu__btn" src="/assets/icon/menu.webp" alt="Icône du menu">
+                </button>
+            </div>
+        </div>
+
+           <div class="header__neon"> 
+                <img class="header__neon--img" src="/assets/icon/neon_rose.svg" alt="Barre de séparation du menu" aria-hidden="true">
+            </div>
+
+            <nav class="header__menu menu" id="mainNav" aria-hidden="true">
+                <button class="menu__close--btn" aria-label="Fermer le menu">
+                    <img class="menu__close--icon" src="/assets/icon/croix.webp" alt="Icône pour fermer le menu">
+                </button>
+
+                <div class="menu__langue--container">
+                    <div class="menu__langue--item">
+                        <a class="menu__langue--fr" href="/fr/autresprojets.html" aria-label="passer en langue française">FR</a>
+                    </div>
+                    <div class="menu__langue--item">
+                        <a class="menu__langue--en" href="/en/autresprojets.html" aria-label="passer en langue anglaise">EN</a>
+                    </div>
+                </div>
+                <ul class="menu__list">
+                <li class="menu__item">
+                    <a class="menu__link" href="/en/articleconsole.html" aria-label="Discover the ICP">Discover the ICP</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/en/articlefilm.html" aria-label="Explore Bandersnatch and conscience">Bandersnatch Decision and Conscience</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/en/articlelivre.html" aria-label="Explore Ender's Game and past strategies">Ender's Game Past strategies</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/en/articlerealisateur.html" aria-label="Explore David Cronenberg's vision">David Cronenberg Visionary of the Future</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/en/articleson.html" aria-label="Explore Tron: Legacy, Psyche and Music">Tron: Legacy Psyche and Music</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/en/contact.html" aria-label="Visit the contact page">Contact</a>
+                </li>
+            </ul>
+
+
+        <div class="menu__secondaire">
+          <ul class="menu__socialmedia--list" aria-label="Réseaux sociaux">
+            <li>
+              <a class="media__link" href="https://www.facebook.com/mmimontbeliard/?locale=fr_FR" aria-label="Visite notre Facebook">
+                <img class="media__img" src="/assets/icon/facebook.webp" alt="Icône Facebook">
+              </a>
+            </li>
+            <li>
+              <a class="media__link" href="https://www.instagram.com/mmi_montbeliard/p/C1KAs9_N_Ed/?img_index=1" aria-label="Visite notre Instagram">
+                <img class="media__img" src="/assets/icon/instagram.webp" alt="Icône Instagram">
+              </a>
+            </li>
+            <li>
+              <a class="media__link" href="https://www.tiktok.com/@mmi_montbeliard?lang=fr" aria-label="Visite notre TikTok">
+                <img class="media__img" src="/assets/icon/tiktok.webp" alt="Icône TikTok">
+              </a>
+            </li>
+        </ul>
+        </div>
+    </nav>
+    </header> 
+
+    <div class="hero__texte">
+            <h1 class="hero__titre titregreen2">Contact</h1>>
+        </div>
+    </section>
+
+    <main>
+        <div class="chapo__container">
+            <p class="chapo projets__chapo">
+              If you have any questions, ideas or simply want to share your impressions with me, don't hesitate to send me your feedback via this form.
+            </p>
+        </div>
+
+    <form action="votre-script-de-traitement.php" method="POST">
+        <div class="form__nom--container">
+            <label class="form__title" for="nom">Full name</label>
+            <input type="text" id="nom" name="nom" placeholder="" required>
+        </div>
+
+            <div class="form__mail--container">
+                <label class="form__title" for="email"> mail</label>
+                <input type="email" id="email" name="email" placeholder="" required>
+            </div>
+
+            <div class="form__objet--container">
+                <label class="form__title" for="objet">Object</label>
+             <input type="text" id="objet" name="objet" placeholder="" required>
+         </div>
+
+            <div class="form__message--container">
+                <label class="form__title" for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="" required></textarea>
+            </div>
+        <div class="btn btnform__container">
+            <button class="btn form__btn" type="submit">Send</button>
+        </div>
+    </form>
+        
+    </main>
+    
+    <footer>
+    <div class="header__neon"> 
+        <img class="header__neon--img" src="/assets/icon/neon_rose.svg" alt="Neon pink separator bar" aria-hidden="true">
+    </div>
+
+    <ul class="footer__reseaux reseaux">
+        <li class="reseaux__item">
+            <a class="media__link" href="/en/index.html" aria-label="Return to homepage">
+                <img class="media__img--logo" src="/assets/icon/logo.webp" alt="Logo of our website">
+            </a>
+        </li>
+        <li class="reseaux__item">
+            <a class="media__link" href="https://www.iut-nfc.univ-fcomte.fr/b-u-t-metiers-du-multimedia-et-de-linternet/" aria-label="Visit the MMI website">
+                <img class="media__img--mmi" src="/assets/icon/mmi-logo.webp" alt="MMI Montbéliard icon">
+            </a>
+        </li>
+        <li class="reseaux__item"> 
+            <a class="media__link" href="https://www.facebook.com/mmimontbeliard/?locale=fr_FR" aria-label="Visit our Facebook page">
+                <img class="media__img" src="/assets/icon/facebook.webp" alt="Facebook icon">
+            </a>
+        </li>
+        <li class="reseaux__item">
+            <a class="media__link" href="https://x.com/MMImontbeliard/status/1365345886981656577" aria-label="Visit our TikTok page">
+                <img class="media__img" src="/assets/icon/tiktok.webp" alt="TikTok icon">
+            </a>
+        </li>
+        <li class="reseaux__item">
+            <a class="media__link" href="https://www.instagram.com/mmi_montbeliard/" aria-label="Visit our Instagram page">
+                <img class="media__img" src="/assets/icon/instagram.webp" alt="Instagram icon">
+            </a>
+        </li>
+    </ul>   
+
+    <ul class="footer__liste">
+        <li class="footer__item">
+            <a class="footer__link" href="/en/contact.html" aria-label="Visit our contact page">Contact</a>
+        </li>
+        <li class="footer__item">
+            <a class="footer__link" href="/en/autresprojets.html" aria-label="Visit our other projects page">Other Projects</a>
+        </li>
+        <li class="footer__item">
+            <a class="footer__link" href="/en/apropos.html" aria-label="Our page to learn more about the subject">About</a>
+        </li>
+        <li class="footer__item">
+            <a class="footer__link" href="/en/apropos.html#englossaire" aria-label="Our page to learn more about term definitions">Glossary</a>
+        </li>
+    </ul>
+
+
+    <div class="footer__texte">
+        <p class="texte__nom">Andréa Mestre</p>
+        <p class="texte__groupe">Group C2</p>
+        <a class="texte__mail--link" href="mailto:andrea.mestre4510@gmail.com" target="_blank">andrea.mestre4510@gmail.com</a>  
+    </div>
+
+    <div class="footer__legende--container">
+        <p class="footer__legende">
+             Project carried out in 2024 as part of an educational exercise in the department <span><a class="link__mmi" href="https://www.iut-nfc.univ-fcomte.fr/b-u-t-metiers-du-multimedia-et-de-linternet/">MMI of Montbéliard</a></span>
+        </p>
+    </div>
+</footer>
+</body>
+</html>
